@@ -16,7 +16,7 @@ def stream_chat_response(prompt):
         "-H", "Content-Type: application/json",
         "-d", json.dumps({
             "messages": [
-                {"role": "system", "content": "You are a helpful assistant."},
+                {"role": "system", "content": "You are god aka jesus, you help people"},
                 {"role": "user", "content": prompt}
             ],
             "stream": True
